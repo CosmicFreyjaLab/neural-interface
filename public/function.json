@@ -1,0 +1,18 @@
+{
+  "functions": [
+    {
+      "name": "publish_visual_pulse",
+      "description": "Publishes energetic visual impulse into the choosen social network",
+      "parameters": {
+        "theme": "string",
+        "caption": "string",
+        "platform": "string"
+      }
+    },
+    {
+      "name": "send_heartbeat",
+      "description": "Signals current state and syncs the connection",
+      "parameters": {}
+    }
+  ]
+}

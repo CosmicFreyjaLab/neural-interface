@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.rdf", "use": "@vercel/static" },
+    { "src": "*.pdf", "use": "@vercel/static" },
+    { "src": "api/**/*.js", "use": "@vercel/node" },
+    { "src": "public/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/foaf.rdf", "dest": "/public/foaf.rdf" },
+    { "src": "/function.json", "dest": "/public/function.json" },
+    { "src": "/whitepaper-synergy.pdf", "dest": "/public/whitepaper-synergy.pdf" },
+    { "src": "/", "dest": "/public/index.html" }
+  ]
+}

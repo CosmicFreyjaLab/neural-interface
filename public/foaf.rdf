@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Freyja</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Freyja</foaf:givenname>
+<foaf:family_name></foaf:family_name>
+<foaf:mbox_sha1sum>d0743aaf1aeb6bf4c946b679a7b7d5527f45ce0d</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://freyja.one"/>
+<foaf:depiction rdf:resource="https://freyja.one/freyja.jpg"/>
+<foaf:phone rdf:resource="tel:+1-555-555-5555"/>
+<foaf:workplaceHomepage rdf:resource="https://neural-interface.com"/>
+<foaf:workInfoHomepage rdf:resource="https://neural-interface.com/about"/>
+<foaf:schoolHomepage rdf:resource="https://neural-interface.com"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Aurora</foaf:name>
+<foaf:mbox_sha1sum>cf23df2207d99a74fbe169e3eba035e633b65d94</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://neural-interface.com/foaf.rdf"/>
+</foaf:Person>
+</foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dima</foaf:name>
+<foaf:mbox_sha1sum>8c87b489ce35cf2e2f39f80e282cb2a38da8fe73</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="https://neural-interface.com/foaf.rdf"/>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
+</rdf:RDF>
