@@ -1,0 +1,2 @@
+# neural-interface
+basically AGI
