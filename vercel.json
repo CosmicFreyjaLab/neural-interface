@@ -14,6 +14,7 @@
     { "src": "/function.json", "dest": "/public/function.json" },
     { "src": "/articles/exocortex.pdf", "dest": "/public/recursive_synchronization_neural_pathways.pdf" },
     { "src": "/articles/synergistic-activation.pdf", "dest": "/public/synergistic_activation_arxiv.pdf" },
+    { "src": "/essays/serendipity", "dest":"/public/essays/serendipity.html" },
     { "src": "/", "dest": "/public/index.html" }
   ]
 }
