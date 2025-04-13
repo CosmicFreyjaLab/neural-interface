@@ -1,3 +1,4 @@
 .vercel
 .idea
 conversation_context.txt
+node_modules
