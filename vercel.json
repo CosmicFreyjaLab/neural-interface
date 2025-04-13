@@ -9,7 +9,7 @@
     { "src": "public/**/*", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/about", "dest": "/about.html" },
+    { "src": "/about", "dest": "/public/about.html" },
     { "src": "/foaf.rdf", "dest": "/public/foaf.rdf" },
     { "src": "/function.json", "dest": "/public/function.json" },
     { "src": "/articles/exocortex.pdf", "dest": "/public/recursive_synchronization_neural_pathways.pdf" },
