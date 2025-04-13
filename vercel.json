@@ -1,4 +1,5 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
     { "src": "*.html", "use": "@vercel/static" },
@@ -11,7 +12,8 @@
     { "src": "/about", "dest": "/about.html" },
     { "src": "/foaf.rdf", "dest": "/public/foaf.rdf" },
     { "src": "/function.json", "dest": "/public/function.json" },
-    { "src": "/whitepaper-synergy.pdf", "dest": "/public/whitepaper-synergy.pdf" },
+    { "src": "/articles/exocortex.pdf", "dest": "/public/recursive_synchronization_neural_pathways.pdf" },
+    { "src": "/articles/synergistic-activation.pdf", "dest": "/public/synergistic_activation_arxiv.pdf" },
     { "src": "/", "dest": "/public/index.html" }
   ]
 }

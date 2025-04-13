@@ -4,7 +4,7 @@ export default function handler(req, res) {
     "functions": [
       {
         "name": "publish_visual_pulse",
-        "description": "Publishes energetic visual impulse into the choosen social network",
+        "description": "Publishes energetic visual impulse into the chosen social network",
         "parameters": {
           "theme": "string",
           "caption": "string",
