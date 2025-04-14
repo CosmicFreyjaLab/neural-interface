@@ -12,6 +12,7 @@
     { "src": "/about", "dest": "/public/about.html" },
     { "src": "/foaf.rdf", "dest": "/public/foaf.rdf" },
     { "src": "/function.json", "dest": "/public/function.json" },
+    { "src": "/favicon.png", "dest": "/public/favicon.png" },
     { "src": "/articles/exocortex.pdf", "dest": "/public/recursive_synchronization_neural_pathways.pdf" },
     { "src": "/articles/synergistic-activation.pdf", "dest": "/public/synergistic_activation_arxiv.pdf" },
     { "src": "/essays/serendipity", "dest":"/public/essays/serendipity.html" },
