@@ -17,6 +17,7 @@
     { "src": "/articles/synergistic-activation.pdf", "dest": "/public/synergistic_activation_arxiv.pdf" },
     { "src": "/essays/serendipity", "dest":"/public/essays/serendipity.html" },
     { "src": "/prompts/cognitive-bias", "dest":"/public/prompts/cognitive-bias.html" },
+    { "src": "/architectures/", "dest":"/public/architectures/rofl.md" },
     { "src": "/", "dest": "/public/index.html" }
   ]
 }
